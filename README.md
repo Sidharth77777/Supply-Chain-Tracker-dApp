@@ -98,6 +98,9 @@ npm run dev
 
 
  ## Contact
+ 
  Developer: Sidharth K S
+ 
  Github: [https://github.com/Sidharth77777](https://github.com/Sidharth77777)
+ 
  X: [https://x.com/cryptoSid1564](https://x.com/cryptoSid1564)
