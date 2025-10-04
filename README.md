@@ -53,7 +53,7 @@ A decentralized application (DApp) for managing and tracking shipments on the Et
 ## Technologies Used
 
 - **Frontend:** Next.js (React), Tailwind CSS, Framer Motion  
-- **Smart Contract:** Solidity (Shipment + Payments + Withdrawals)  
+- **Smart Contract:** Solidity 
 - **Wallet Integration:** MetaMask, Ethers.js  
 - **Blockchain:** Ethereum Sepolia Testnet  
 - **Deployment:** Vercel  
