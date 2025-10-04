@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚚 Supply Chain Tracker DApp
 
-## Getting Started
+[Live Demo](https://supply-chain-tracker-dapp.vercel.app)  
+[Smart Contract on Etherscan](https://sepolia.etherscan.io/address/0xcDa8e7017e9DE650965315F563FE8cB981575eB8)
 
-First, run the development server:
+A decentralized application (DApp) for managing and tracking shipments on the Ethereum Sepolia testnet. This DApp enables sellers and buyers to interact with a smart contract that ensures transparent shipment tracking, secure payments, and automated fund withdrawals upon successful delivery.
+
+---
+
+## Features
+
+- **Connect Wallet:** Connect your MetaMask wallet to the DApp.
+- **Create Shipments:** Sellers can create shipments with buyer, distance, price, and pickup time.
+- **Track Shipments:** Follow a timeline of shipment progress — Pick Up → Dispatch → On Route → Delivery.
+- **View Shipment Details:** See shipment ID, seller, buyer, price, distance, and status.
+- **Payment Management:** Buyers can pay in ETH for their shipments.
+- **Withdraw Funds:** Sellers can withdraw funds after successful delivery.
+- **Cancelled Shipments:** Funds cannot be withdrawn if a shipment is cancelled.
+- **Responsive UI:** Fully responsive design with smooth animations.
+- **Explorer Links:** View contract and transactions directly on [Etherscan](https://sepolia.etherscan.io/).
+
+---
+
+## Requirements
+
+- **MetaMask Wallet:** Must be connected to the Sepolia testnet.  
+- **Sepolia ETH:** Required to pay for gas fees. Get test ETH from the [Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia).
+
+---
+
+## Screenshots
+
+![Connect Wallet](https://drive.usercontent.google.com/download?id=15DQpQNvlThmWWbr_gX6OOP-eTq-GRcCF&export=view&authuser=0)  
+*Connect your MetaMask wallet to get started.*
+
+---
+
+![Supply Chain Dashboard](https://drive.usercontent.google.com/download?id=1gCyh4-sXK40uL9iX0hvZT-cpyuJKqifi&export=view&authuser=0)  
+*Overview of shipments and their progress.*
+
+---
+
+![Your Purchases Table](https://drive.usercontent.google.com/download?id=1L051Ab9AjV6o2ePAeh3TFbONdlIObyKx&export=view&authuser=0)  
+*Track all your purchased shipments in one place.*
+
+---
+
+![Shipment Details](https://drive.usercontent.google.com/download?id=1yHWzV9q-KE_F41m5jdcVmnh9CyzxYmZW&export=view&authuser=0)  
+*Detailed view of a shipment including seller, buyer, status, and withdraw option.*
+
+---
+
+## Technologies Used
+
+- **Frontend:** Next.js (React), Tailwind CSS, Framer Motion  
+- **Smart Contract:** Solidity (Shipment + Payments + Withdrawals)  
+- **Wallet Integration:** MetaMask, Ethers.js  
+- **Blockchain:** Ethereum Sepolia Testnet  
+- **Deployment:** Vercel  
+
+---
+
+## Smart Contract Details
+
+- **Contract Name:** SupplyChainTracker  
+- **Deployed Address:** [0xcDa8e7017e9DE650965315F563FE8cB981575eB8](https://sepolia.etherscan.io/address/0xcDa8e7017e9DE650965315F563FE8cB981575eB8)  
+- **Shipment Lifecycle:** Created → Dispatched → On Route → Delivered → Cancelled  
+- **Withdrawals:** Sellers can only withdraw funds once per shipment and only after delivery.  
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Sidharth77777/Supply-Chain-Tracker-dApp.git
+cd Supply-Chain-Tracker-dApp
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000)  in your browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
+ Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ ## Contact
+ Developer: Sidharth K S
+ Github: [https://github.com/Sidharth77777](https://github.com/Sidharth77777)
+ X: [https://x.com/cryptoSid1564](https://x.com/cryptoSid1564)
